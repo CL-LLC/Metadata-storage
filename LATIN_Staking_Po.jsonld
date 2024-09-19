@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@language": "en-us",
+
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -26,28 +26,12 @@
             }
           }
         },
-        "comment": "CIP100:comment",
-        "externalUpdates": {
-          "@id": "CIP100:externalUpdates",
-          "@context": {
-            "title": "CIP100:update-title",
-            "uri": "CIP100:update-uri"
-          }
-        },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": {
-          "@id": "CIP119:image",
-          "@context": {
-            "ImageObject": "https://schema.org/ImageObject"
-          }
-        },
+        "image": "CIP119:image",
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
-        "title": "CIP108:title",
-        "abstract": "CIP108:abstract",
-        "rationale": "CIP108:rationale",
         "doNotList": "CIP119:doNotList"
       }
     },
@@ -71,25 +55,19 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "doNotList": false,
-    "title": "LATIN_Staking_Pool",
     "givenName": "LATIN_Staking_Pool",
-    "image": {
-      "@type": "ImageObject",
-      "contentUrl": "https://raw.githubusercontent.com/CL-LLC/MD/refs/heads/main/cl-llc.png",
-      "sha256": "855c0acb1e40ac5c03acd32f9da0be788b74461c88296e91bdc0093fe59cf827"
-    },
     "motivations": "As a Cardano DRep, I will:\n1- Amplify our community's voice in decentralized governance\n2- Drive innovation through strategic proposal support\n3- Transform visionary ideas into blockchain realities\n4- Promote transparency and continuous ecosystem growth\nJoin me in shaping Cardano's future – where every vote propels us towards a more decentralized, equitable, and innovative world.",
     "objectives": "As a dedicated Cardano supporter, I seek to become a Delegation Representative (DRep) to:\n1. Participate in decentralized governance post-Chang hard fork\n2. Represent community interests\n3. Promote informed, transparent decision-making\n4. Support Cardano's growth and innovation\nCommitted to responsibly help shaping Cardano's future through active governance participation.",
     "paymentAddress": "addr1qyfpzr5qntnhjze933tzfe7z649f30lk0ru566n9f7ny4pzdpa3tzmdv3zgd79z8e9p0qaj0zang0z9z8ejdqrcnqj2s2dsmve",
     "qualifications": "- Veteran SPO since ITN: Deep-rooted understanding of Cardano's evolution\n- Hands-on experience with network operations and community engagement\n- Proven track record of contributing to Cardano's decentralization\n- Passionate advocate for Cardano's vision of global financial equality\n- Bridging technical expertise with a commitment to community representation\n",
     "references": [
       {
-        "@type": "Other",
-        "label": "Cardano Latino",
+        "@type": "Link",
+        "label": "Cardano Latino ",
         "uri": "https://cardanolatino.com/"
       },
       {
-        "@type": "Other",
+        "@type": "Identity",
         "label": "Cardano Latino X account",
         "uri": "https://x.com/CardanoLatino"
       }
