@@ -26,6 +26,14 @@
             }
           }
         },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
         "image": {
